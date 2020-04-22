@@ -19,5 +19,15 @@ PREREQUISITES:
 
 Tip : I do not resize/move the bluestack window for ease of scripts to work. Eg. As per my mac, the screen coordinates for the center of the bluestacks window is (x=850, y=525). I make sure to bring turf item at these coordinates, to ensure the script works seemlessly every time.
 
+PROGRESS SO FAR:
+- hit_monster.py
+    - Use to hit monster
+- open_chests_one.py
+    - Use to open chests one by one | Faster method exists using "Stack" button, but watching the chests count go down by 1 is more fun!
+- open_chests_multiple.py
+    - Less fun :). Use to open the chests in the bag (upto 100).
+- send_help_quest.py
+    - Use for "Send Help" quest during guild fest | For players who have taken up "Send Help" quest.
+
 TODO:
 - Send help automation : If a guild member gets a task to send helps, a script should continuously put a building in upgrade, ask for help and cancel upgrade repeatedly. Planning to use pyautogui again.
