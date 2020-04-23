@@ -28,6 +28,7 @@ PROGRESS SO FAR:
     - Less fun :). Use to open the chests in the bag (upto 100).
 - send_help_quest.py
     - Use for "Send Help" quest during guild fest | For players who have taken up "Send Help" quest.
-
-TODO:
-- Send help automation : If a guild member gets a task to send helps, a script should continuously put a building in upgrade, ask for help and cancel upgrade repeatedly. Planning to use pyautogui again.
+- generate_helps.py
+    - Use to generate helps which a guild member can use to complete "Send Help" quest without straining your fingers.
+    - Performance : 120 helps takes 10 minutes approx.
+    - Note : A player who gets "Send Help" quest should run send_help_quest.py & the other player, who want to help with this task, should run generate_helps.py
