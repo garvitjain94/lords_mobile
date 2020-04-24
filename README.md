@@ -36,7 +36,9 @@ PROGRESS SO FAR:
     - Performance : 120 helps takes 10 minutes approx.
     - Note : A player who gets "Send Help" quest should run send_help_quest.py & the other player, who want to help with this task, should run generate_helps.py
 enemy_invading_turf.py
-- During KvK, don't let enemy attack your resource gathering troops. Gather in peace!
-- Script will keep monitoring the screen for "An Enemy Army is invading your Turf". 
-- If string is present, it will start making sound. Please keep speaker volume audible.
+    - During KvK, don't let enemy attack your resource gathering troops. Gather in peace!
+    - Script will keep monitoring the screen for "An Enemy Army is invading your Turf". 
+    - If string is present, it will start making sound. Please keep speaker volume audible.
+open_mystery_boxes.py
+    - Use to automatically collect rewards from mystery box, whenever available.
  
