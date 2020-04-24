@@ -12,7 +12,7 @@ import time
 import pyautogui
 
 while(1):
-    if pyautogui.locateOnScreen('open_mystery_box_str.png', confidence=0.6):
+    if pyautogui.locateOnScreen('images/open_mystery_box.png', confidence=0.6):
         print("Opening mystery box!")
 
         # click the mystery box
