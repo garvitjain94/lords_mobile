@@ -44,3 +44,6 @@ PROGRESS SO FAR:
 - enemy_scouting_turf.py
     - Generates audio alerts if enemy scouts turf/camp.
     - Useful during KvK as troops out for gathering resources are under constant threat from enemy.
+- enemy_invading_camps.py
+    - Use to recall all gathering troops automatically once an enemy army starts invading a camp
+    - Much awaited script, super useful during KvK as troops out for gathering resources are under constant threat from enemy.
