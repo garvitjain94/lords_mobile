@@ -24,11 +24,11 @@ while(1):
     # screen coordinates of the message that appear on the game window
     pyautogui.screenshot("enemy_scouting_turf.png",
                          region=(580*2, 420*2, 1000, 80))
-    price_string = pytesseract.image_to_string(
+    message_string = pytesseract.image_to_string(
         'enemy_scouting_turf.png').split()
 
     # if an enemy starts scouting your turf/camp, the script generates 10 beeps
-    if "scouting" in price_string:
+    if "scouting" in message_string:
         ctr = 10
         while(ctr):
             print("\a")
