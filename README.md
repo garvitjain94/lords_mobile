@@ -41,3 +41,6 @@ PROGRESS SO FAR:
     - If string is present, it will start making sound. Please keep speaker volume audible.
 - open_mystery_boxes.py
     - Use to automatically collect rewards from mystery box, whenever available.
+- enemy_scouting_turf.py
+    - Generates audio alerts if enemy scouts turf/camp.
+    - Useful during KvK as troops out for gathering resources are under constant threat from enemy.
