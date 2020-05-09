@@ -10,7 +10,6 @@ Inputs:
 - In case script throws error wrt "confidence" parameter below, run
     >> pip install opencv-python
 """
-import sys
 import time
 
 import pyautogui
@@ -18,4 +17,4 @@ import pyautogui
 while(1):
     if pyautogui.locateOnScreen('images/enemy_invading_turf.png', confidence=0.6):
         print("An Enemy Army is invading your Turf")
-        sys.stdout.write('\a')
+        print('\a')

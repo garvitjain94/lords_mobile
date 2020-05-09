@@ -8,7 +8,6 @@ Inputs:
 
 - Runs continuously | Press Ctrl+Z in terminal to stop/reset.
 """
-import sys
 import time
 
 import pyautogui
