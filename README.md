@@ -47,3 +47,6 @@ PROGRESS SO FAR:
 - enemy_invading_camps.py
     - Use to recall all gathering troops automatically once an enemy army starts invading a camp
     - Much awaited script, super useful during KvK as troops out for gathering resources are under constant threat from enemy.
+- gather_gems.py
+    - Use to send automatically send troops to gathering. 
+    - Can be used together with enemy_invading_camps.py script to get a super combo of automatic sending troops to gathering and recalling in case of threat. Never ever, never ever get tile hit during KvK :)
